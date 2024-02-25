@@ -5,11 +5,11 @@ import gfg from "./gfg.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import crud from "./crud.png";
-
 import github from "./github.png";
 import menu from "./menu.svg";
+import telesys from "./company/telesys.png";
 import close from "./close.svg";
-import victory from "./company/victory.png"
+import victory from "./company/victory.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -17,7 +17,6 @@ import git from "./tech/git.png";
 import html from "./tech/html.png";
 import cbr from "./cbr.png";
 import freelance from "./freelance.png";
-
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
@@ -28,13 +27,13 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import gfgWeb from "./gfgWeb.png";
 import blood from "./blood.png";
-import netflix from './netflix.png'
+import netflix from "./netflix.png";
+import nextjs from "./tech/nextjs.png";
 import snake from "./snake.png";
-
-
-// import gfg from "./company/gfg.png"
 import meta from "./company/meta.png";
-import tsf from "./company/tsf.png"
+import tsf from "./company/tsf.png";
+import ecliptech from "./company/ecliptech.png";
+
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
@@ -47,9 +46,11 @@ export {
   logo,
   backend,
   creator,
+  nextjs,
   mobile,
   web,
   github,
+  ecliptech,
   menu,
   close,
   css,
@@ -66,7 +67,9 @@ export {
   reactjs,
   redux,
   gfg,
-  tailwind,freelance,
+  tailwind,
+  telesys,
+  freelance,
   typescript,
   threejs,
   meta,
