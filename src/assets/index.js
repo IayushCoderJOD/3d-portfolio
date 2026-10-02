@@ -29,6 +29,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import gfgWeb from "./gfgWeb.png";
 import blood from "./blood.png";
+import rehab100mph from "./100mph.png";
 import netflix from "./netflix.png";
 import nextjs from "./tech/nextjs.png";
 import snake from "./snake.png";
@@ -88,6 +89,7 @@ export {
   tesla,
   gfgWeb,
   blood,
+  rehab100mph,
   snake,
   carrent,
   jobit,

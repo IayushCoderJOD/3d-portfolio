@@ -13,6 +13,7 @@ import {
   html,
   telesys,
   blood,
+  rehab100mph,
   css,
   victory,
   tsf,
@@ -224,8 +225,8 @@ const projects = [
     name: "100mph – Physiotherapy Rehab App",
     description:
       "Co-founded and built a full-stack rehab app in React Native running on Android, iOS, and web — serving 50+ paying clients. Features condition-specific programs (lower back, shoulder, neck), an admin dashboard with RBAC, membership lifecycle management with JWT refresh tokens, and Cloudflare Stream for exercise video delivery.",
-    image: blood,
-    source_code_link: "https://github.com/IayushCoderJOD",
+    image: rehab100mph,
+    source_code_link: "https://github.com/IayushCoderJOD/100mph_rehab",
   },
   {
     name: "Care Health Insurance – BPM Engine",
