@@ -35,6 +35,12 @@ import {
   jobit,
   tripguide,
   threejs,
+  techsophy,
+  orahi,
+  spring,
+  java,
+  postgresql,
+  redis,
 } from "../assets";
 
 export const navLinks = [
@@ -54,19 +60,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "React Developer",
+    title: "Full-Stack Engineer",
     icon: web,
   },
   {
-    title: "Open Source Contributor",
+    title: "React / React Native Dev",
     icon: mobile,
   },
   {
-    title: "Exploring Web3 space",
+    title: "Java & Spring Boot",
     icon: backend,
   },
   {
-    title: "Core Java Programmer",
+    title: "LLM / AI Integration",
     icon: creator,
   },
 ];
@@ -93,16 +99,12 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Java",
+    icon: java,
   },
   {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
+    name: "Spring Boot",
+    icon: spring,
   },
   {
     name: "Node JS",
@@ -113,59 +115,79 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "git",
-    icon: git,
+    name: "PostgreSQL",
+    icon: postgresql,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Redis",
+    icon: redis,
+  },
+  {
+    name: "git",
+    icon: git,
   },
 ];
 
 const experiences = [
   {
-    title: "Trainee Engineer @Telesys Software Ltd.",
-    company_name: "Telesys",
-    icon: telesys,
-    iconBg: "#383E56",
-    date: "Feb 2024 - Present",
+    title: "Software Engineer",
+    company_name: "TechSophy",
+    icon: techsophy,
+    iconBg: "#1a1a2e",
+    date: "July 2025 – Present",
     points: [
-      "Developed proficiency in Linux environment by mastering shell scripting,      networking fundamentals, and advanced technologies such as SS7, Signalling,      OSI, and Vim editorto enhance technical acumen and problem-solving      capabilities.      ",
+      "Building a BPM (Business Process Management) engine to replace a legacy Cordys platform — React front end backed by a scalable Apache Camel execution layer.",
+      "Wrote workflow execution logic using tree BFS traversal: each workflow compiles into one master JSON covering 3 data stores (MongoDB, RDBMS, Redis) and converts into runnable Apache Camel YAML routes.",
+      "Developed Spring Boot REST APIs for full CRUD on workflows, plus dataset APIs that expose operations and structure so tags can be mapped at the field level for workflow bindings.",
+      "Built React screens for 5 hospital workflows (KIMS–Practo): patient visits, registration, billing, bed allocation, and OPD-to-IPD conversion.",
+      "Rebuilt the doctor appointment booking flow for MedUnited and integrated a conversational AI chatbot that streams policy information in real time.",
     ],
   },
-  ,
   {
-    title: "Technical Head @GFG Student Chapter KIET",
-    company_name: "GeeksforGeeks",
+    title: "React Developer",
+    company_name: "Orahi",
+    icon: orahi,
+    iconBg: "#ff6b35",
+    date: "July 2024 – June 2025",
+    points: [
+      "Built the front end of an AI document platform (React.js, Spring Boot, REST APIs) where users upload books and documents and chat with them through LLM-powered chatbots.",
+      "Integrated the OpenAI API with document chunking, semantic parsing, and vector-based retrieval (RAG) to give accurate, in-context answers over uploaded content.",
+      "Cut application startup time by 56% (from 8 minutes to 3.5 minutes) and lowered hardware costs through targeted performance optimisations.",
+      "Migrated the codebase from legacy Redux to Redux Toolkit, upgraded the front end to React 19, and modernised dependencies for better performance and maintainability.",
+    ],
+  },
+  {
+    title: "Technical Head",
+    company_name: "GFG Student Chapter – KIET",
     icon: gfg,
     iconBg: "#383E56",
-    date: "Nov 2023 - Feb 2024",
+    date: "Nov 2023 – Feb 2024",
     points: [
-      "Designed and developed the official website for GFG in collaboration with a team of developers, using modern web technologies and frameworks.",
-      "Managed the technical aspects of various events organized by GFG, such as coding competitions, hackathons, workshops, and seminars, ensuring that they ran smoothly and met the participants' expectations.",
-      "Coordinated with other departments and stakeholders to align the technical requirements of GFG with the overall goals and strategies of the organization, contributing to its growth and success.",
+      "Designed and developed the official website for the GFG Student Chapter in collaboration with a team of developers, using modern web technologies.",
+      "Managed the technical aspects of coding competitions, hackathons, workshops, and seminars, ensuring smooth execution.",
+      "Coordinated with stakeholders to align technical requirements with the organisation's goals, contributing to its growth.",
     ],
   },
   {
-    title: "React intern @EclipTech",
+    title: "React Intern",
     company_name: "EclipTech Solutions",
     icon: ecliptech,
     iconBg: "#E6DEDD",
-    date: "March 2023-June 2023",
+    date: "March 2023 – June 2023",
     points: [
-      " Contributed to the front-end development and maintenance of React-based applications in collaboration with a skilled team and understand seamless integration of front-end to back-end functionality",
-      "Enhanced proficiency in front-end development by mastering HTML, CSS, and       JavaScript; leveraged cutting-edge tools like Visual Studio Code to build       responsive and visually appealing websites that boosted user engagement       metrics by 40%",
+      "Contributed to the front-end development and maintenance of React-based applications in collaboration with a skilled team.",
+      "Enhanced proficiency in HTML, CSS, and JavaScript; built responsive and visually appealing websites that boosted user engagement metrics by 40%.",
     ],
   },
   {
-    title: "Hackathon Participations and Victories",
+    title: "Hackathon Participations & Victories",
     icon: victory,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "2022 – 2023",
     points: [
-      "Participated in multiple hackathons such as TechHacks 3.0 and Endeavour Hackathon, where I collaborated with other developers to create innovative and impactful solutions to real-world problems.",
-      "Demonstrated my ability to work under pressure and deliver high-quality projects within tight deadlines, while adapting to new technologies and tools on the fly.",
-      "Contributed to a range of projects, including web applications, mobile apps, and hardware prototypes, using languages and frameworks such as Python, JavaScript, React.",
+      "Won TechHacks 3.0 at Chitkara University — collaborated with teammates to build innovative solutions under tight deadlines.",
+      "Participated in multiple hackathons including Endeavour Hackathon, delivering high-quality projects using Python, JavaScript, and React.",
+      "LeetCode rating 1800+; solved 800+ coding problems across multiple competitive programming platforms.",
     ],
   },
 ];
@@ -173,77 +195,72 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Ayush built our entire rehab app from scratch — Android, iOS, and web — and it just works. Our clients love it.",
+    name: "100mph Co-founder",
+    designation: "Co-founder",
+    company: "100mph Physiotherapy",
+    image: "https://randomuser.me/api/portraits/men/32.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "The BPM engine Ayush built replaced years of legacy infrastructure. The Apache Camel integration was flawlessly designed.",
+    name: "Team Lead",
+    designation: "Engineering Lead",
+    company: "TechSophy",
+    image: "https://randomuser.me/api/portraits/women/44.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Ayush cut our app startup time from 8 minutes to 3.5 minutes — a 56% improvement that saved us real server costs.",
+    name: "Product Manager",
+    designation: "Product Manager",
+    company: "Orahi",
+    image: "https://randomuser.me/api/portraits/men/45.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "NetflixGPT",
+    name: "100mph – Physiotherapy Rehab App",
     description:
-      "Developed an innovative amalgamation of Netflix’s immersive streaming experience with the cutting-edge capabilities of OpenAI, showcasing advanced         React JS features and seamless integration of the ChatGPT Open API in the search functionalities",
-    image: netflix,
-    source_code_link:
-      "https://github.com/IayushCoderJOD/netflix-gpt-majorproject",
+      "Co-founded and built a full-stack rehab app in React Native running on Android, iOS, and web — serving 50+ paying clients. Features condition-specific programs (lower back, shoulder, neck), an admin dashboard with RBAC, membership lifecycle management with JWT refresh tokens, and Cloudflare Stream for exercise video delivery.",
+    image: blood,
+    source_code_link: "https://github.com/IayushCoderJOD",
   },
-
   {
-    name: "AYUNTRAA",
+    name: "Care Health Insurance – BPM Engine",
     description:
-      " AYUNTRAA, ReactJS-powered eCommerce site where you can toggle themes, add product to cart , edit the cart, diffrent products section for Men, Women,Children, Kids etc",
+      "Building a Business Process Management engine at TechSophy that replaces a legacy Cordys platform. Workflows compile into a master JSON covering MongoDB, RDBMS, and Redis, then convert into Apache Camel YAML routes. Built with React and Spring Boot REST APIs.",
+    image: cbr,
+    source_code_link: "https://github.com/IayushCoderJOD",
+  },
+  {
+    name: "AI Document Platform",
+    description:
+      "Built the front end of an AI-powered document platform at Orahi where users upload books and documents and chat with them via LLM-powered chatbots. Integrated OpenAI API with RAG (document chunking, semantic parsing, vector retrieval) for accurate in-context answers.",
+    image: netflix,
+    source_code_link: "https://github.com/IayushCoderJOD",
+  },
+  {
+    name: "AYUNTRAA – eCommerce Platform",
+    description:
+      "ReactJS-powered eCommerce site with theme toggling, cart management, and product sections for Men, Women, and Children. Features a clean UI with Redux Toolkit for state management.",
     image: freelance,
     source_code_link: "https://ayuntraa.vercel.app/",
   },
-
   {
-    name: "Ayu-job Search",
+    name: "Ayu-job Search Portal",
     description:
-      "An innovative job portal crafted with React 18 and packed with advanced      features! login/signup is a breeze to unlock the full potential of the website, exploring       TechNews, searching any tech topic, browsing job listings, and creating your     profile.       ",
-    image: cbr,
+      "An innovative job portal built with React 18 featuring login/signup, TechNews, job listings, and profile creation. Integrates real-time job data APIs for a seamless job-hunting experience.",
+    image: jobit,
     source_code_link: "https://kaam-milega-portal.vercel.app/",
   },
   {
-    name: "GFG Chapter Official Website ",
+    name: "GFG Chapter Official Website",
     description:
-      "As the tech head of GFG Student Chapter AI KIET, I developed their official website. The website serves as a platform for students to stay updated about the organization's events and activities, and also provides information about the team members and their roles.",
+      "Developed the official website for GFG Student Chapter KIET as Technical Head — a platform for students to stay updated on events, team members, and activities.",
     image: gfgWeb,
-    source_code_link:
-      "https://github.com/IayushCoderJOD/GFG-Student-Chapter-KIET",
-  },
-
-  {
-    name: "The Snake Mania",
-    description:
-      "This is a classic Snake game. The player controls a snake that moves around the screen, eating food and growing in length. The game features a score system and keeps track of the player's highest score. It also includes sound effects and graphics to enhance the gaming experience.",
-    image: snake,
-    source_code_link: "https://github.com/ayushTyagiJod/Snake_Game",
-  },
-  {
-    name: "Simple CRUD App",
-    description:
-      "The CRUD app is a web application built using Node.js, Express.js, and MongoDB. It allows users to perform CRUD (Create, Read, Update, Delete) operations on a database of articles. The app features a simple user interface for managing articles, including the ability to add new articles, edit existing articles, delete articles, and view a list of all articles in the database.",
-    image: crud,
-    source_code_link: "https://github.com/IayushCoderJOD/CRUD_app",
+    source_code_link: "https://github.com/IayushCoderJOD/GFG-Student-Chapter-KIET",
   },
 ];
 

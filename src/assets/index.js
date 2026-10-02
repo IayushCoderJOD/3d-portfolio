@@ -8,6 +8,8 @@ import crud from "./crud.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import telesys from "./company/telesys.png";
+import techsophy from "./company/techsophy.svg";
+import orahi from "./company/orahi.svg";
 import close from "./close.svg";
 import victory from "./company/victory.png";
 import css from "./tech/css.png";
@@ -33,6 +35,10 @@ import snake from "./snake.png";
 import meta from "./company/meta.png";
 import tsf from "./company/tsf.png";
 import ecliptech from "./company/ecliptech.png";
+import spring from "./tech/spring.svg";
+import java from "./tech/java.svg";
+import postgresql from "./tech/postgresql.svg";
+import redis from "./tech/redis.svg";
 
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -69,6 +75,8 @@ export {
   gfg,
   tailwind,
   telesys,
+  techsophy,
+  orahi,
   freelance,
   typescript,
   threejs,
@@ -84,4 +92,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  spring,
+  java,
+  postgresql,
+  redis,
 };

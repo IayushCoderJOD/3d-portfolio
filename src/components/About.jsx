@@ -47,10 +47,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled web developer and Java Programmer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React.js, Next.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Full-stack engineer with 2+ years of experience building complex software products and
+        LLM-powered applications using Java, Spring Boot, and React. I co-founded a physiotherapy
+        rehab app (React Native) serving 50+ paying clients across Android, iOS, and web. I'm
+        passionate about clean architecture, performance optimisation, and integrating AI into
+        real-world products — from RAG-powered document chatbots to BPM engines on Apache Camel.
+        Let's build something impactful together!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

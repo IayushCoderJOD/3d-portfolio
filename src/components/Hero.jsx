@@ -21,11 +21,9 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Ayush</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100 `} >
-            Budding Engineer with good problem-solving skills
-
-            and
-            {/* <br className="sm:block hidden"  /> */}
-            ability to perform well in a team. I develop user interfaces and web applications.
+            Full-Stack Engineer · Java & Spring Boot · React & React Native
+            <br className="sm:block hidden" />
+            Building LLM-powered products and scalable backends.
           </p>
         </div>
       </div>
