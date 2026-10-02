@@ -4,6 +4,7 @@ import { Points, PointMaterial, Preload } from "@react-three/drei";
 import * as random from "maath/random/dist/maath-random.esm";
 
 import ErrorBoundary from "../ErrorBoundary";
+import { isWebGLAvailable } from "../../utils/webgl";
 
 const Stars = (props) => {
   const ref = useRef();
@@ -32,6 +33,8 @@ const Stars = (props) => {
 };
 
 const StarsCanvas = () => {
+  if (!isWebGLAvailable()) return null;
+
   return (
     <div className='w-full h-auto absolute inset-0 z-[-1]'>
       <ErrorBoundary>

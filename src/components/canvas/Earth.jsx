@@ -4,6 +4,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 import ErrorBoundary from "../ErrorBoundary";
+import { isWebGLAvailable } from "../../utils/webgl";
 
 const Earth = () => {
   const earth = useGLTF("./planet/scene.gltf");
@@ -13,6 +14,8 @@ const Earth = () => {
 };
 
 const EarthCanvas = () => {
+  if (!isWebGLAvailable()) return null;
+
   return (
     <ErrorBoundary>
       <Canvas
